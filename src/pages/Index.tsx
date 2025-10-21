@@ -30,12 +30,30 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <div 
-        className="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
-        style={{
-          backgroundImage: `linear-gradient(rgba(139, 21, 56, 0.3), rgba(139, 21, 56, 0.3)), url('https://cdn.poehali.dev/projects/f0ed0f8e-0b55-4f9f-9688-f6d0ac576920/files/30a13222-95ad-400b-a6f6-0e2e25010365.jpg')`
-        }}
+        className="relative min-h-screen bg-primary flex items-center justify-center overflow-hidden"
       >
-        <div className="text-center text-white px-4 animate-fade-in">
+        <img 
+          src="https://cdn.poehali.dev/files/8b99b750-18e1-4dc5-ac09-460cf18dfb17.PNG"
+          alt=""
+          className="absolute top-10 left-10 w-48 h-auto opacity-60 animate-fade-in hidden md:block"
+        />
+        <img 
+          src="https://cdn.poehali.dev/files/30aaacc8-6723-453d-a043-5d2caa05e9a3.PNG"
+          alt=""
+          className="absolute top-10 right-10 w-48 h-auto opacity-60 animate-fade-in hidden md:block"
+        />
+        <img 
+          src="https://cdn.poehali.dev/files/5995a683-4603-4c48-8a6d-17da7ead7043.PNG"
+          alt=""
+          className="absolute bottom-10 left-10 w-48 h-auto opacity-60 animate-fade-in hidden md:block"
+        />
+        <img 
+          src="https://cdn.poehali.dev/files/8b99b750-18e1-4dc5-ac09-460cf18dfb17.PNG"
+          alt=""
+          className="absolute bottom-10 right-10 w-48 h-auto opacity-60 animate-fade-in hidden md:block"
+        />
+        
+        <div className="text-center text-white px-4 animate-fade-in z-10">
           <h1 className="text-7xl md:text-9xl font-serif mb-6 tracking-wide">Дарья</h1>
           <div className="text-3xl md:text-5xl font-light mb-8 tracking-widest">25 ЛЕТ</div>
           
